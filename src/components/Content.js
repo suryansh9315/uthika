@@ -3,6 +3,9 @@ import Lab from "../assets/images/lab.jpeg";
 import { textIntro2, titleIntro, descIntro } from "../components/animate";
 import styled from "styled-components";
 
+// To-Do
+// Make Responsive
+
 const Content = () => {
   const div1Ref = useRef();
   const div2Ref = useRef();
@@ -32,7 +35,7 @@ const Content = () => {
 export default Content;
 
 const ContentContainer = styled.div`
-  height: 80vh;
+  height: 85vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,7 +43,7 @@ const ContentContainer = styled.div`
   position: relative;
 `;
 const Div1 = styled.div`
-  height: 30vw;
+  height: 32vw;
   width: 30vw;
   background-size: cover;
   background-position: center;
@@ -55,13 +58,13 @@ const Div2 = styled.div`
   z-index: -1;
 `;
 const Div3 = styled.div`
-  flex: 0.6;
+  flex: 0.55;
   padding: 0px 5vw;
 `;
 const Title = styled.div`
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: "Concert One", cursive;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 `;
 const Description = styled.div`
   font-size: 1rem;

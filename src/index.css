@@ -14,6 +14,7 @@
 }
 body{
   background-color: #F4F8FE;
+  overflow-x: hidden;
 }
 
 code {
